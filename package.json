@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "nft-minter",
+  "version": "1.0.0"
+}
