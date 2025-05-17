@@ -49,7 +49,20 @@ cd zora-by-travis
 # Install dependencies
 yarn install
 
+# Run telegram bot
+cd packages/telegram-bot/
+
 # Run web app
-cd apps/web
+cd packages/web-app
 yarn dev
+
+# API keys
+
+# packages/telegram-bot/.env
+
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
+HUGGINGFACE_API_TOKEN=your_hf_token_here
+RPC_URL=your_rpc_url_here
+WALLET_ADDRESS=your_wallet_address
+PINATA_JWT=your_pinata_jwt_here
 ```
