@@ -51,6 +51,7 @@ yarn install
 
 # Run telegram bot
 cd packages/telegram-bot/
+yarn dev
 
 # Run web app
 cd packages/web-app
